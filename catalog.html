@@ -14,6 +14,7 @@
 
 <body>
 	<div class="wrapper">
+
 		<header class="header">
 			<div class="header__top top-header">
 				<div class="top-header__container">
@@ -39,7 +40,9 @@
 			</div>
 			<div class="header__body body-header">
 				<div class="body-header__container">
-					<a href="home.html" class="body-header__logo"></a>
+					<a href="home.html" class="body-header__logo-contain">
+						<img src="img/icon-logo.png" alt="logo">
+					</a>
 					<div data-da=".catalog-header__container, 479.98" class="body-header__search">
 						<form action="#" class="search-header">
 							<button type="submit" class="search-header__button _icon-search"></button>
@@ -52,7 +55,7 @@
 						<div data-da=".top-header__container, 991.98, first" class="actions-header__phones phones-header">
 							<div data-spollers class="phones-header__items">
 								<div class="phones-header__item">
-									<a href="tel:88007774967" class="phones-header__phone"><span>071 000 00 00</span></a>
+									<a href="tel:" class="phones-header__phone"><span>071 000 00 00</span></a>
 									<button type="button" data-spoller class="phones-header__arrow _icon-arrow-buttom"></button>
 									<ul class="phones-header__list">
 										<li><a href="tel:88007774968" class="phones-header__phone">071 000 00 00</a></li>
@@ -81,49 +84,51 @@
 					<nav class="catalog-header__menu menu-catalog">
 						<button type="button" class="menu-catalog__back _icon-back">Назад</button>
 						<ul class="menu-catalog__list">
-							<li class="menu-catalog__item"><button data-parent="1" class="menu-catalog__link">Каталог
-									ножей</button>
+							<li class="menu-catalog__item"><button data-parent="1" class="menu-catalog__link">Мобильные
+									телефоны Смартфоны и гаджеты</button>
 							</li>
-							<li class="menu-catalog__item"><button data-parent="2" class="menu-catalog__link">Клинковое
-									оружие</button></li>
-							<li class="menu-catalog__item"><button data-parent="3" class="menu-catalog__link">Сувенирные
-									изделия</button></li>
-							<li class="menu-catalog__item"><button data-parent="4" class="menu-catalog__link">Фонари ARMYTEK
+							<li class="menu-catalog__item"><button data-parent="2" class="menu-catalog__link">Ноутбуки и
+									компьютеры</button></li>
+							<li class="menu-catalog__item"><button data-parent="3" class="menu-catalog__link">Телевизоры,
+									аудио-видео, фото</button></li>
+							<!-- <li class="menu-catalog__item"><button data-parent="4" class="menu-catalog__link">Фонари ARMYTEK
 								</button></li>
 							<li class="menu-catalog__item"><button data-parent="5" class="menu-catalog__link">Сопуствующие
-									товары</button></li>
+									товары</button></li> -->
 						</ul>
 						<div class="menu-catalog__sub-menu sub-menu-catalog">
 							<button type="button" class="sub-menu-catalog__back _icon-back">Назад</button>
 							<div class="sub-menu-catalog__container">
 								<div hidden data-submenu="1" class="sub-menu-catalog__block">
 									<div class="sub-menu-catalog__category">
-										<a href="" class="sub-menu-catalog__link-category">Категория ножей</a>
+										<a href="" class="sub-menu-catalog__link-category">Смартфоны</a>
 									</div>
 									<div class="sub-menu-catalog__category">
-										<a href="" class="sub-menu-catalog__link-category">Производство ножей</a>
+										<a href="" class="sub-menu-catalog__link-category">Планшеты</a>
 									</div>
 									<div class="sub-menu-catalog__category">
-										<a href="" class="sub-menu-catalog__link-category">Ножи по маркам стали</a>
+										<a href="" class="sub-menu-catalog__link-category">Гаджеты</a>
 									</div>
 									<div class="sub-menu-catalog__category">
-										<a href="" class="sub-menu-catalog__link-category">Заточка и полировка ножей</a>
+										<a href="" class="sub-menu-catalog__link-category">Аксессуары</a>
 									</div>
 									<div class="sub-menu-catalog__category">
-										<a href="" class="sub-menu-catalog__link-category">Ножевая мастерская</a>
+										<a href="" class="sub-menu-catalog__link-category">Наушники</a>
 									</div>
+
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Разделочные
-												ножи</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Туристические
-												ножи</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Мобильные
+												телефоны</a>
+										</li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Смартфоны</a>
+										</li>
+										<li class="sub-menu-catalog__item"><a href=""
+												class="sub-menu-catalog__link">Смартфоны(премиум)</a></li>
+										<!-- <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи
 												охотничьи</a>
-										</li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Булатные
-												ножи</a>
-										</li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из
+										</li> -->
+
+										<!-- <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из
 												дамаска</a>
 										</li>
 										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Тактического
@@ -135,16 +140,19 @@
 										</li>
 										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи
 												кухонные</a>
-										</li>
+										</li> -->
 									</ul>
+
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи АИР</a>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Планшеты</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи ЗИК</a>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Детские
+												планшеты</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи
-												ЗЗОСС</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Игровые
+												планшеты</a></li>
+
+										<!-- <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи
 												РОСоружие</a>
 										</li>
 										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи
@@ -161,18 +169,20 @@
 												Стиль-М</a>
 										</li>
 										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Оружейная
-												компания</a></li>
+												компания</a></li> -->
 									</ul>
+
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали
-												40х102С2М</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали
-												95х18</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали
-												100х13м</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали
-												110х18м-ШД</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали
+										<li class="sub-menu-catalog__item"><a href=""
+												class="sub-menu-catalog__link">Смарт-часы</a></li>
+										<li class="sub-menu-catalog__item"><a href=""
+												class="sub-menu-catalog__link">Фитнес-браслеты</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Виртуальные
+												очки</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Цифровые
+												фоторамки</a></li>
+
+										<!-- <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали
 												ЭИ-107 ТЦ</a></li>
 										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали
 												50х14МФ</a></li>
@@ -183,34 +193,37 @@
 										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали
 												M390</a></li>
 										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали
-												ЭП-766</a></li>
+												ЭП-766</a></li> -->
 									</ul>
+
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Паста ГОИ</a>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Кабели для
+												смартфонов и планшетов</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Алмазная
-												паста</a>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Чехлы для
+												смартфонов и планшетов</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Бруски и
-												камни для
-												заточки</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Заточные
-												системы</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные
+												плёнки и стёкла</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Держатели,
+												подставки</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Внешние
+												аккумуляторы (Power Bank)</a></li>
 									</ul>
+
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножевые
-												клинки</a>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Bluetooth
+												гарнитуры</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Заготовки для
-												ножей</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Литье для
-												ножей</a>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Мониторные
+												наушники</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Беспроводные
+												наушники</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Материалы для
-												рукоятей</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Уход за
-												рукоятиями
-												ножей</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Проводные
+												наушники</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Наушники
+												вкладыши</a></li>
 									</ul>
 
 									<button class="sub-menu-catalog__back _icon-back" type="button">Назад</button>
@@ -231,39 +244,58 @@
 										<a href="" class="sub-menu-catalog__all">Смотреть все</a>
 									</div>
 								</div>
+
+
 								<div hidden data-submenu="2" class="sub-menu-catalog__block">
 									<div class="sub-menu-catalog__category">
-										<a href="" class="sub-menu-catalog__link-category">Заточка и полировка ножей</a>
+										<a href="" class="sub-menu-catalog__link-category">Ноутбуки</a>
 									</div>
 									<div class="sub-menu-catalog__category">
-										<a href="" class="sub-menu-catalog__link-category">Ножевая мастерская</a>
+										<a href="" class="sub-menu-catalog__link-category">Компьютеры и моноблоки</a>
 									</div>
+									<div class="sub-menu-catalog__category">
+										<a href="" class="sub-menu-catalog__link-category">Комплектующие для ПК</a>
+									</div>
+
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Паста ГОИ</a>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ноутбуки</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Алмазная
-												паста</a>
+										<li class="sub-menu-catalog__item"><a href=""
+												class="sub-menu-catalog__link">Ноутбуки-трансформеры</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Бруски и
-												камни для
-												заточки</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Заточные
-												системы</a></li>
+										<li class="sub-menu-catalog__item"><a href=""
+												class="sub-menu-catalog__link">Ультрабуки</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Игровые
+												ноутбуки</a></li>
 									</ul>
+
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножевые
-												клинки</a>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Моноблоки</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Заготовки для
-												ножей</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Литье для
-												ножей</a>
+										<li class="sub-menu-catalog__item"><a href=""
+												class="sub-menu-catalog__link">Компьютеры</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Системные
+												блоки</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Материалы для
-												рукоятей</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Уход за
-												рукоятиями
-												ножей</a></li>
+										<li class="sub-menu-catalog__item"><a href=""
+												class="sub-menu-catalog__link">Микрокомпьютеры</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Игровые
+												компьютеры</a></li>
+									</ul>
+
+									<ul class="sub-menu-catalog__list">
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Платформы для
+												сборки ПК</a>
+										</li>
+										<li class="sub-menu-catalog__item"><a href=""
+												class="sub-menu-catalog__link">Процессоры</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Системы
+												охлаждения компьютера</a>
+										</li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Модули
+												памяти</a></li>
+										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Материнские
+												платы</a></li>
 									</ul>
 
 									<button class="sub-menu-catalog__back _icon-back" type="button">Назад</button>
@@ -274,33 +306,40 @@
 									<div class="sub-menu-catalog__footer">
 										<a href="" class="sub-menu-catalog__all">Смотреть все</a>
 									</div>
+									<div class="sub-menu-catalog__footer">
+										<a href="" class="sub-menu-catalog__all">Смотреть все</a>
+									</div>
 								</div>
+
+
 								<div hidden class="sub-menu-catalog__block" data-submenu="3">
 									<!-- <button class="sub-menu-catalog__back _icon-back" type="button">Назад</button> -->
 									<div class="sub-menu-catalog__category">
-										<a class="sub-menu-catalog__link-category" href="">3</a>
+										<a class="sub-menu-catalog__link-category" href="">Телевизоры</a>
 									</div>
 									<div class="sub-menu-catalog__category">
-										<a class="sub-menu-catalog__link-category" href="">Производство ножей</a>
+										<a class="sub-menu-catalog__link-category" href="">Аудио-видео техника</a>
 									</div>
 									<div class="sub-menu-catalog__category">
-										<a class="sub-menu-catalog__link-category" href="">Ножи по маркам стали</a>
+										<a class="sub-menu-catalog__link-category" href="">Фотоаппараты</a>
 									</div>
+
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Разделочные
-												ножи</a></li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Туристические
-												ножи</a></li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи
-												охотничьи</a>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ultra HD 8K
+												телевизоры</a></li>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">OLED
+												телевизоры</a></li>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">NEO QLED
+												телевизоры</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Булатные
-												ножи</a>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">NanoCell
+												телевизоры</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи из
-												дамаска</a>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Телевизоры
+												Crystal UHD</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Тактического
+
+										<!-- <li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Тактического
 												назначения</a></li>
 										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Метательные
 												ножи</a></li>
@@ -309,44 +348,48 @@
 										</li>
 										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи
 												кухонные</a>
-										</li>
+										</li> -->
 									</ul>
+
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи АИР</a>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Виниловые
+												проигрыватели</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи ЗИК</a>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Акустические
+												системы</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи
-												ЗЗОСС</a></li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи
-												РОСоружие</a>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Сабвуферы
+												Hi-Fi</a></li>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link"
+												href="">Медиаплееры</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи
-												Оружейник</a>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Blu-Ray
+												плееры</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Булат Сергея
-												Баранова</a></li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Булат Андрея
-												Умерова</a></li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи
-												Златко</a>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Саундбары</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи
-												Стиль-М</a>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Музыкальные
+												центры</a></li>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Магнитолы</a>
 										</li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Оружейная
-												компания</a></li>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Портативные
+												колонки</a>
+										</li>
+										<!-- <li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Оружейная
+												компания</a></li> -->
 									</ul>
+
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи из стали
-												40х102С2М</a></li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи из стали
-												95х18</a></li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи из стали
-												100х13м</a></li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи из стали
-												110х18м-ШД</a></li>
-										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи из стали
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Зеркальные
+												фотоаппараты</a></li>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Цифровые
+												фотоаппараты</a></li>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Системные
+												камеры</a></li>
+										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Экшн
+												камеры</a></li>
+
+										<!-- <li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи из стали
 												ЭИ-107 ТЦ</a></li>
 										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи из стали
 												50х14МФ</a></li>
@@ -357,7 +400,7 @@
 										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи из стали
 												M390</a></li>
 										<li class="sub-menu-catalog__item"><a class="sub-menu-catalog__link" href="">Ножи из стали
-												ЭП-766</a></li>
+												ЭП-766</a></li> -->
 									</ul>
 
 									<button class="sub-menu-catalog__back _icon-back" type="button">Назад</button>
@@ -374,8 +417,8 @@
 
 								</div>
 
-								<div hidden class="sub-menu-catalog__block" data-submenu="4">
-									<!-- <button class="sub-menu-catalog__back _icon-back" type="button">Назад</button> -->
+								<!-- <div hidden class="sub-menu-catalog__block" data-submenu="4">
+									<button class="sub-menu-catalog__back _icon-back" type="button">Назад</button> 
 									<div class="sub-menu-catalog__category">
 										<a class="sub-menu-catalog__link-category" href="">4</a>
 									</div>
@@ -479,9 +522,9 @@
 										<a class="sub-menu-catalog__all">Смотреть все</a>
 									</div>
 								</div>
-
-								<div hidden class="sub-menu-catalog__block" data-submenu="5">
-									<!-- <button class="sub-menu-catalog__back _icon-back" type="button">Назад</button> -->
+ -->
+								<!-- <div hidden class="sub-menu-catalog__block" data-submenu="5">
+									<button class="sub-menu-catalog__back _icon-back" type="button">Назад</button>
 									<div class="sub-menu-catalog__category">
 										<a class="sub-menu-catalog__link-category" href="">5</a>
 									</div>
@@ -605,24 +648,28 @@
 									<div class="sub-menu-catalog__footer">
 										<a class="sub-menu-catalog__all">Смотреть все</a>
 									</div>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</nav>
 				</div>
 			</div>
 		</header>
+
 		<main class="page page_inner">
 			<div class="page__header">
 				<div class="page__container">
-					<h1 class="page__title title">Разделочные ножи</h1>
+					<h1 class="page__title title">Каталог</h1>
 					<nav class="page__breadcrumbs breadcrumbs">
 						<ul class="breadcrumbs__list">
 							<li class="breadcrumbs__item">
-								<a href="" class="breadcrumbs__link">Главная</a>
+								<a href="home.html" class="breadcrumbs__link">Главная</a>
 							</li>
+							<!-- <li class="breadcrumbs__item">
+								<span href="#" class="breadcrumbs__current">Каталог</span>
+							</li> -->
 							<li class="breadcrumbs__item">
-								<span href="" class="breadcrumbs__current">Разделочные ножи</span>
+								<a href="product.html" class="breadcrumbs__current">В карточку товара</a>
 							</li>
 						</ul>
 					</nav>
@@ -651,30 +698,30 @@
 								<!-- Фильтр по параметру -->
 								<div class="filter-catalog__item item-filter-catalog">
 									<button type="button" data-spoller
-										class="item-filter-catalog__title _icon-spoller-arrow">Производство</button>
+										class="item-filter-catalog__title _icon-spoller-arrow">Бренд</button>
 									<div class="item-filter-catalog__body">
 										<div class="item-filter-catalog__checkbox checkbox">
 											<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1"
 												name="form[]">
-											<label for="c_1" class="checkbox__label"><span class="checkbox__text">АиР
+											<label for="c_1" class="checkbox__label"><span class="checkbox__text">ACER
 													<small>(250)</small></span></label>
 										</div>
 										<div class="item-filter-catalog__checkbox checkbox">
 											<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1"
 												name="form[]">
-											<label for="c_2" class="checkbox__label"><span class="checkbox__text">Булат Сергея
-													Баранова <small>(25)</small></span></label>
+											<label for="c_2" class="checkbox__label"><span
+													class="checkbox__text">APPLE<small>(25)</small></span></label>
 										</div>
 										<div class="item-filter-catalog__checkbox checkbox">
 											<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1"
 												name="form[]">
-											<label for="c_3" class="checkbox__label"><span class="checkbox__text">Булат Умерова
+											<label for="c_3" class="checkbox__label"><span class="checkbox__text">ASUS
 													<small>(265)</small></span></label>
 										</div>
 										<div class="item-filter-catalog__checkbox checkbox">
 											<input id="c_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1"
 												name="form[]">
-											<label for="c_4" class="checkbox__label"><span class="checkbox__text">ЗЗОСС
+											<label for="c_4" class="checkbox__label"><span class="checkbox__text">DELL
 													<small>(18)</small></span></label>
 										</div>
 									</div>
@@ -694,20 +741,23 @@
 							<!-- каталог с карточками товаров -->
 							<div class="catalog__products">
 								<article class="product-card">
-									<div class="product-card__sale">-50%</div>
 									<a href="" class="product-card__image">
 										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
-											<img src="img/product-card/image.jpg" alt="Картинка">
+											<img
+												src="img/хиты_продаж_новое/1-Смартфон Xiaomi Redmi Note 10S 6-64Gb, белая галька.jpg"
+												alt="Картинка">
 										</span>
 									</a>
 									<div class="product-card__body">
 										<h4 class="product-card__title">
-											<a href="" class="product-card__link-title">Нож Лиса</a>
+											<a href="" class="product-card__link-title">Смартфон Xiaomi Redmi Note 10S 6-64Gb,
+												белая галька</a>
 										</h4>
 										<div class="product-card__info info-product-card">
-											<div class="info-product-card__size">95х18</div>
-											<div class="info-product-card__materials">Орех, Алюминий</div>
+											<div class="info-product-card__size">6.43", AMOLED</div>
+											<div class="info-product-card__materials">5000 мАч</div>
 										</div>
+										<!-- Рейтинг (звёздочки) -->
 										<div class="product-card__rating rating rating_set">
 											<div class="rating__body">
 												<div class="rating__active"></div>
@@ -723,7 +773,7 @@
 											<div class="rating__info">12 отзывов</div>
 										</div>
 										<div class="product-card__footer">
-											<div class="product-card__price">2 719 р.</div>
+											<div class="product-card__price">29 990 р.</div>
 											<a href="" class="product-card__compare _icon-compare"></a>
 											<a href="" class="product-card__favorite _icon-favorite"></a>
 										</div>
@@ -734,16 +784,18 @@
 								<article class="product-card">
 									<a href="" class="product-card__image">
 										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
-											<img src="img/product-card/image.jpg" alt="Картинка">
+											<img src="img/хиты_продаж_новое/2-Смартфон Xiaomi Redmi 9C 128Gb, серый.jpg"
+												alt="Картинка">
 										</span>
 									</a>
 									<div class="product-card__body">
 										<h4 class="product-card__title">
-											<a href="" class="product-card__link-title">Нож Лиса</a>
+											<a href="" class="product-card__link-title">Смартфон Xiaomi Redmi 9C 128Gb,
+												серый</a>
 										</h4>
 										<div class="product-card__info info-product-card">
-											<div class="info-product-card__size">95х18</div>
-											<div class="info-product-card__materials">Орех, Алюминий</div>
+											<div class="info-product-card__size">6.53", IPS</div>
+											<div class="info-product-card__materials">Android 10</div>
 										</div>
 										<div class="product-card__rating rating rating_set">
 											<div class="rating__body">
@@ -760,7 +812,7 @@
 											<div class="rating__info">12 отзывов</div>
 										</div>
 										<div class="product-card__footer">
-											<div class="product-card__price">2 719 р.</div>
+											<div class="product-card__price">17 990 р.</div>
 											<a href="" class="product-card__compare _icon-compare"></a>
 											<a href="" class="product-card__favorite _icon-favorite"></a>
 										</div>
@@ -771,16 +823,19 @@
 								<article class="product-card">
 									<a href="" class="product-card__image">
 										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
-											<img src="img/product-card/image.jpg" alt="Картинка">
+											<img
+												src="img/хиты_продаж_новое/3-Смартфон Xiaomi Poco M3 Pro 6-128Gb, синий холодный.jpg"
+												alt="Картинка">
 										</span>
 									</a>
 									<div class="product-card__body">
 										<h4 class="product-card__title">
-											<a href="" class="product-card__link-title">Нож Лиса</a>
+											<a href="" class="product-card__link-title">Смартфон Xiaomi Poco M3 Pro 6-128Gb,
+												синий холодный</a>
 										</h4>
 										<div class="product-card__info info-product-card">
-											<div class="info-product-card__size">95х18</div>
-											<div class="info-product-card__materials">Орех, Алюминий</div>
+											<div class="info-product-card__size">6.5", IPS</div>
+											<div class="info-product-card__materials">Android 11</div>
 										</div>
 										<div class="product-card__rating rating rating_set">
 											<div class="rating__body">
@@ -797,7 +852,7 @@
 											<div class="rating__info">12 отзывов</div>
 										</div>
 										<div class="product-card__footer">
-											<div class="product-card__price">2 719 р.</div>
+											<div class="product-card__price">29 990 р.</div>
 											<a href="" class="product-card__compare _icon-compare"></a>
 											<a href="" class="product-card__favorite _icon-favorite"></a>
 										</div>
@@ -808,16 +863,18 @@
 								<article class="product-card">
 									<a href="" class="product-card__image">
 										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
-											<img src="img/product-card/image.jpg" alt="Картинка">
+											<img src="img/хиты_продаж_новое/4-Смартфон Motorola Moto G20 64Gb, XT2128-2, синий.jpg"
+												alt="Картинка">
 										</span>
 									</a>
 									<div class="product-card__body">
 										<h4 class="product-card__title">
-											<a href="" class="product-card__link-title">Нож Лиса</a>
+											<a href="" class="product-card__link-title">Смартфон Motorola Moto G20 64Gb,
+												XT2128-2, синий</a>
 										</h4>
 										<div class="product-card__info info-product-card">
-											<div class="info-product-card__size">95х18</div>
-											<div class="info-product-card__materials">Орех, Алюминий</div>
+											<div class="info-product-card__size">6.5", IPS</div>
+											<div class="info-product-card__materials">Android 11</div>
 										</div>
 										<div class="product-card__rating rating rating_set">
 											<div class="rating__body">
@@ -834,7 +891,7 @@
 											<div class="rating__info">12 отзывов</div>
 										</div>
 										<div class="product-card__footer">
-											<div class="product-card__price">2 719 р.</div>
+											<div class="product-card__price">19 485 р.</div>
 											<a href="" class="product-card__compare _icon-compare"></a>
 											<a href="" class="product-card__favorite _icon-favorite"></a>
 										</div>
@@ -845,16 +902,16 @@
 								<article class="product-card">
 									<a href="" class="product-card__image">
 										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
-											<img src="img/product-card/image.jpg" alt="Картинка">
+											<img src="img/хиты_продаж_новое/5-Смартфон Huawei Y6P 64Gb, черный.jpg" alt="Картинка">
 										</span>
 									</a>
 									<div class="product-card__body">
 										<h4 class="product-card__title">
-											<a href="" class="product-card__link-title">Нож Лиса</a>
+											<a href="" class="product-card__link-title">Смартфон Huawei Y6P 64Gb, черный</a>
 										</h4>
 										<div class="product-card__info info-product-card">
-											<div class="info-product-card__size">95х18</div>
-											<div class="info-product-card__materials">Орех, Алюминий</div>
+											<div class="info-product-card__size">6.3", IPS</div>
+											<div class="info-product-card__materials">Android 10 HMS</div>
 										</div>
 										<div class="product-card__rating rating rating_set">
 											<div class="rating__body">
@@ -871,7 +928,7 @@
 											<div class="rating__info">12 отзывов</div>
 										</div>
 										<div class="product-card__footer">
-											<div class="product-card__price">2 719 р.</div>
+											<div class="product-card__price">18 590 р.</div>
 											<a href="" class="product-card__compare _icon-compare"></a>
 											<a href="" class="product-card__favorite _icon-favorite"></a>
 										</div>
@@ -882,16 +939,17 @@
 								<article class="product-card">
 									<a href="" class="product-card__image">
 										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
-											<img src="img/product-card/image.jpg" alt="Картинка">
+											<img src="img/хиты_продаж_новое/6-Смартфон HTC Wildfire E2 64Gb, серый.jpg"
+												alt="Картинка">
 										</span>
 									</a>
 									<div class="product-card__body">
 										<h4 class="product-card__title">
-											<a href="" class="product-card__link-title">Нож Лиса</a>
+											<a href="" class="product-card__link-title">Смартфон HTC Wildfire E2 64Gb, серый</a>
 										</h4>
 										<div class="product-card__info info-product-card">
-											<div class="info-product-card__size">95х18</div>
-											<div class="info-product-card__materials">Орех, Алюминий</div>
+											<div class="info-product-card__size">6.217", IPS</div>
+											<div class="info-product-card__materials">Android 10.0</div>
 										</div>
 										<div class="product-card__rating rating rating_set">
 											<div class="rating__body">
@@ -908,7 +966,7 @@
 											<div class="rating__info">12 отзывов</div>
 										</div>
 										<div class="product-card__footer">
-											<div class="product-card__price">2 719 р.</div>
+											<div class="product-card__price">13 330 р.</div>
 											<a href="" class="product-card__compare _icon-compare"></a>
 											<a href="" class="product-card__favorite _icon-favorite"></a>
 										</div>
@@ -919,16 +977,17 @@
 								<article class="product-card">
 									<a href="" class="product-card__image">
 										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
-											<img src="img/product-card/image.jpg" alt="Картинка">
+											<img src="img/хиты_продаж_новое/7-Смартфон Honor 50 6-128Gb, черный.jpg"
+												alt="Картинка">
 										</span>
 									</a>
 									<div class="product-card__body">
 										<h4 class="product-card__title">
-											<a href="" class="product-card__link-title">Нож Лиса</a>
+											<a href="" class="product-card__link-title">Смартфон Honor 50 6-128Gb, черный</a>
 										</h4>
 										<div class="product-card__info info-product-card">
-											<div class="info-product-card__size">95х18</div>
-											<div class="info-product-card__materials">Орех, Алюминий</div>
+											<div class="info-product-card__size">6.57", OLED</div>
+											<div class="info-product-card__materials">Android 11</div>
 										</div>
 										<div class="product-card__rating rating rating_set">
 											<div class="rating__body">
@@ -945,7 +1004,273 @@
 											<div class="rating__info">12 отзывов</div>
 										</div>
 										<div class="product-card__footer">
-											<div class="product-card__price">2 719 р.</div>
+											<div class="product-card__price">45 490 р.</div>
+											<a href="" class="product-card__compare _icon-compare"></a>
+											<a href="" class="product-card__favorite _icon-favorite"></a>
+										</div>
+										<button type="button" class="product-card__cart button"><span class="_icon-cart">В
+												корзину</span></button>
+									</div>
+								</article>
+
+								<article class="product-card">
+									<a href="" class="product-card__image">
+										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
+											<img src="img/хиты_продаж_новое/1-Ноутбук Lenovo IP Gaming 3 15ACH6-min.jpg"
+												alt="Картинка">
+										</span>
+									</a>
+									<div class="product-card__body">
+										<h4 class="product-card__title">
+											<a href="" class="product-card__link-title">Ноутбук Lenovo IP Gaming 3 15ACH6</a>
+										</h4>
+										<div class="product-card__info info-product-card">
+											<div class="info-product-card__size">15.6 "</div>
+											<div class="info-product-card__materials">8 ГБ, 256 ГБ</div>
+										</div>
+										<!-- Рейтинг (звёздочки) -->
+										<div class="product-card__rating rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">3.6</div>
+											<div class="rating__info">12 отзывов</div>
+										</div>
+										<div class="product-card__footer">
+											<div class="product-card__price">136 390 р.</div>
+											<a href="" class="product-card__compare _icon-compare"></a>
+											<a href="" class="product-card__favorite _icon-favorite"></a>
+										</div>
+										<button type="button" class="product-card__cart button"><span class="_icon-cart">В
+												корзину</span></button>
+									</div>
+								</article>
+								<article class="product-card">
+									<a href="" class="product-card__image">
+										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
+											<img src="img/хиты_продаж_новое/2-Ноутбук Acer Aspire 3 A317-33-C2SS-min.jpg"
+												alt="Картинка">
+										</span>
+									</a>
+									<div class="product-card__body">
+										<h4 class="product-card__title">
+											<a href="" class="product-card__link-title">Ноутбук Acer Aspire 3 A317-33-C2SS</a>
+										</h4>
+										<div class="product-card__info info-product-card">
+											<div class="info-product-card__size">17.3"</div>
+											<div class="info-product-card__materials">4ГБ, 128ГБ</div>
+										</div>
+										<div class="product-card__rating rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">3.6</div>
+											<div class="rating__info">12 отзывов</div>
+										</div>
+										<div class="product-card__footer">
+											<div class="product-card__price">56 690 р.</div>
+											<a href="" class="product-card__compare _icon-compare"></a>
+											<a href="" class="product-card__favorite _icon-favorite"></a>
+										</div>
+										<button type="button" class="product-card__cart button"><span class="_icon-cart">В
+												корзину</span></button>
+									</div>
+								</article>
+								<article class="product-card">
+									<a href="" class="product-card__image">
+										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
+											<img src="img/хиты_продаж_новое/3-Ультрабук Honor MagicBook X15-min.jpg"
+												alt="Картинка">
+										</span>
+									</a>
+									<div class="product-card__body">
+										<h4 class="product-card__title">
+											<a href="" class="product-card__link-title">Ультрабук Honor MagicBook X15</a>
+										</h4>
+										<div class="product-card__info info-product-card">
+											<div class="info-product-card__size">15.6"</div>
+											<div class="info-product-card__materials">8ГБ, 512ГБ</div>
+										</div>
+										<div class="product-card__rating rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">3.6</div>
+											<div class="rating__info">12 отзывов</div>
+										</div>
+										<div class="product-card__footer">
+											<div class="product-card__price">105 790 р.</div>
+											<a href="" class="product-card__compare _icon-compare"></a>
+											<a href="" class="product-card__favorite _icon-favorite"></a>
+										</div>
+										<button type="button" class="product-card__cart button"><span class="_icon-cart">В
+												корзину</span></button>
+									</div>
+								</article>
+								<article class="product-card">
+									<a href="" class="product-card__image">
+										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
+											<img src="img/хиты_продаж_новое/4-Ноутбук Acer Aspire 3 A315-23-R55F-min.jpg"
+												alt="Картинка">
+										</span>
+									</a>
+									<div class="product-card__body">
+										<h4 class="product-card__title">
+											<a href="" class="product-card__link-title">Ноутбук Acer Aspire 3 A315-23-R55F</a>
+										</h4>
+										<div class="product-card__info info-product-card">
+											<div class="info-product-card__size">15.6"</div>
+											<div class="info-product-card__materials">8ГБ, 256ГБ</div>
+										</div>
+										<div class="product-card__rating rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">3.6</div>
+											<div class="rating__info">12 отзывов</div>
+										</div>
+										<div class="product-card__footer">
+											<div class="product-card__price">76 790 р.</div>
+											<a href="" class="product-card__compare _icon-compare"></a>
+											<a href="" class="product-card__favorite _icon-favorite"></a>
+										</div>
+										<button type="button" class="product-card__cart button"><span class="_icon-cart">В
+												корзину</span></button>
+									</div>
+								</article>
+								<article class="product-card">
+									<a href="" class="product-card__image">
+										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
+											<img src="img/хиты_продаж_новое/5-Ноутбук Huawei MateBook D 14-min.jpg" alt="Картинка">
+										</span>
+									</a>
+									<div class="product-card__body">
+										<h4 class="product-card__title">
+											<a href="" class="product-card__link-title">Ноутбук Huawei MateBook D 14</a>
+										</h4>
+										<div class="product-card__info info-product-card">
+											<div class="info-product-card__size">14"</div>
+											<div class="info-product-card__materials">8ГБ, 256ГБ</div>
+										</div>
+										<div class="product-card__rating rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">3.6</div>
+											<div class="rating__info">12 отзывов</div>
+										</div>
+										<div class="product-card__footer">
+											<div class="product-card__price">82 990 р.</div>
+											<a href="" class="product-card__compare _icon-compare"></a>
+											<a href="" class="product-card__favorite _icon-favorite"></a>
+										</div>
+										<button type="button" class="product-card__cart button"><span class="_icon-cart">В
+												корзину</span></button>
+									</div>
+								</article>
+								<article class="product-card">
+									<a href="" class="product-card__image">
+										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
+											<img src="img/хиты_продаж_новое/6-Ноутбук Lenovo IdeaPad 3 14ALC6-min.jpg"
+												alt="Картинка">
+										</span>
+									</a>
+									<div class="product-card__body">
+										<h4 class="product-card__title">
+											<a href="" class="product-card__link-title">Ноутбук Lenovo IdeaPad 3 14ALC6</a>
+										</h4>
+										<div class="product-card__info info-product-card">
+											<div class="info-product-card__size">14"</div>
+											<div class="info-product-card__materials">8ГБ, 512ГБ</div>
+										</div>
+										<div class="product-card__rating rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">3.6</div>
+											<div class="rating__info">12 отзывов</div>
+										</div>
+										<div class="product-card__footer">
+											<div class="product-card__price">84 690 р.</div>
+											<a href="" class="product-card__compare _icon-compare"></a>
+											<a href="" class="product-card__favorite _icon-favorite"></a>
+										</div>
+										<button type="button" class="product-card__cart button"><span class="_icon-cart">В
+												корзину</span></button>
+									</div>
+								</article>
+								<article class="product-card">
+									<a href="" class="product-card__image">
+										<span class="product-card__item-image-ibg product-card__item-image-ibg-contain">
+											<img src="img/хиты_продаж_новое/7-Ноутбук DELL G15 5510-min.jpg" alt="Картинка">
+										</span>
+									</a>
+									<div class="product-card__body">
+										<h4 class="product-card__title">
+											<a href="" class="product-card__link-title">Ноутбук DELL G15 5510</a>
+										</h4>
+										<div class="product-card__info info-product-card">
+											<div class="info-product-card__size">15.6"</div>
+											<div class="info-product-card__materials">16ГБ, 512ГБ</div>
+										</div>
+										<div class="product-card__rating rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">3.6</div>
+											<div class="rating__info">12 отзывов</div>
+										</div>
+										<div class="product-card__footer">
+											<div class="product-card__price">207 090 р.</div>
 											<a href="" class="product-card__compare _icon-compare"></a>
 											<a href="" class="product-card__favorite _icon-favorite"></a>
 										</div>
@@ -955,7 +1280,7 @@
 								</article>
 							</div>
 							<div class="catalog__footer">
-								<a href="" class="catalog__more button button_border">Показать больше</a>
+								<a href="product.html" class="catalog__more button button_border">Перейти к карточке товара</a>
 								<!-- пагинация -->
 								<div class="catalog__pagging pagging">
 									<button type="button" class="pagging__arrow pagging__arrow_left _icon-arrow-buttom"
@@ -986,24 +1311,18 @@
 				</div>
 			</div>
 		</main>
-		<footer class="footer">
 
+		<footer class="footer">
 			<section class="footer__text text-footer">
 				<div class="text-footer__container">
-					<h1 class="text-footer__title">Златоустовские ножи интернет-магазин "ЗЛАТМАКС"</h1>
-					<div class="text-footer__text">Наш интернет-магазин "ЗЛАТМАКС" предлагает Вам ножи очень высокого
-						качества из
-						города оружейников - Златоуста. Златоустовские ножи известны и популярны среди потребителей как на
-						российским рынке, так и за рубежом: ножи охотничьи, хозяйственные, туристические, рыбацкие, складные и
-						метательные. Нож Златоуста - это идеальный друг и товарищ в повседневной жизни и в экстремальных
-						ситуациях.
+					<h1 class="text-footer__title">Интернет-магазин</h1>
+					<div class="text-footer__text">Наш интернет-магазин предлагает Вам товары очень высокого
+						качества.
 						На многую продукцию распространяется гарантия до 10 лет - это один из главных показателей качества.
-						Для Вас
-						на нашем сайте "zlatmax" предложен огромный ассортимент Златоустовских ножей. Наши менеджеры помогут
-						определиться и подобрать самый лучший Златоустовский нож, ориентируясь на Ваши пожелания.</div>
+						Наши менеджеры помогут
+						определиться и подобрать самый лучший товар, ориентируясь на Ваши пожелания.</div>
 				</div>
 			</section>
-
 			<div class="footer__container">
 				<div class="footer__body body-footer">
 					<!-- 1-ый ряд (этаж) -->
@@ -1018,11 +1337,10 @@
 										<nav class="menu-footer">
 											<ul class="menu-footer__list">
 												<li class="menu-footer__item">
-													<a href="" class="menu-footer__link">Златоустовские ножи в Москве и Московской
-														области</a>
+													<a href="" class="menu-footer__link">Умная электроника в Донецке</a>
 												</li>
 												<li class="menu-footer__item">
-													<a href="" class="menu-footer__link">Ножевые стали</a>
+													<a href="" class="menu-footer__link">Это интересно</a>
 												</li>
 												<li class="menu-footer__item">
 													<a href="" class="menu-footer__link">О нас</a>
@@ -1120,25 +1438,24 @@
 										<nav class="menu-footer">
 											<ul class="menu-footer__list">
 												<li class="menu-footer__item">
-													<a href="tel:88007774967" class="menu-footer__link _icon-footer-phone">8 (800)
-														777-49-67</a>
+													<a href="tel:" class="menu-footer__link _icon-footer-phone">071 000 00 00</a>
 												</li>
 												<li class="menu-footer__item _icon-footer-clock">
 													<div>
 														<p>Пн-Пт</p>
-														<p>7:00 - 16:00 (МСК)</p>
+														<p>7:00 - 16:00)</p>
 													</div>
 												</li>
 												<li class="menu-footer__item _icon-footer-location">
 													<div>
-														<p>Златоуст,</p>
-														<p>ул. Шоссейная,</p>
-														<p>д. 1, офис «6Б»</p>
+														<p>г.Донецк</p>
+														<p>пл.Ленина</p>
+														<p></p>
 													</div>
 												</li>
 												<li class="menu-footer__item">
-													<a href="mailto:info@zlatmax.ru"
-														class="menu-footer__link _icon-footer-email">info@zlatmax.ru</a>
+													<a href="mailto:saitpostroen@gmail.com"
+														class="menu-footer__link _icon-footer-email">saitpostroen@gmail.com</a>
 												</li>
 											</ul>
 										</nav>
@@ -1221,18 +1538,16 @@
 					<!-- 3-ий этаж футера -->
 					<div class="body-footer__bottom">
 						<div class="body-footer__rules">
-							Все материалы, размещенные на сайте, носят справочный характер и не являются публичной офертой,
-							определяемойположениями Статьи 437 Гражданского кодекса Российской Федерации. При копировании
-							материалов
-							гиперссылка на www.zlatmax.ru обязательна!
+							Все материалы, размещенные на сайте, носят справочный характер
 						</div>
 						<div class="body-footer__copy">
-							Златоустовские ножи <span>www.zlatmax.ru ©</span>
+							интернет-магазин <span>©</span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
+
 	</div>
 	<div id="callback" aria-hidden="true" class="popup">
 		<div class="popup__wrapper">

@@ -2282,7 +2282,7 @@ body.popup-show::after {
 }
 
 .footer {
-	background-color: #141414;
+	background-color: #30327c;
 	/* &__text {
    } */
 	/* &__container {
@@ -2292,7 +2292,7 @@ body.popup-show::after {
 }
 
 .text-footer {
-	background: url("../img/footer/bg.jpg") top/cover no-repeat;
+	background: url("../img/фон-min (1).jpg") top/cover no-repeat;
 	/*  &__container {
    } */
 }
@@ -3526,7 +3526,7 @@ body.popup-show::after {
 }
 .filter-catalog__title {
 	width: 100%;
-	background-color: #141414;
+	background-color: #7a6bac;
 	font-weight: 700;
 	font-size: 1.25rem;
 	line-height: 1.2;
@@ -3586,7 +3586,7 @@ body.popup-show::after {
 }
 
 .item-filter-catalog__title {
-	background-color: #141414;
+	background-color: #7a6bac;
 	width: 100%;
 	color: #fff;
 	padding: 0.8125rem 1.875rem;
